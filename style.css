@@ -60,3 +60,10 @@ figure img {
 article p {
   margin-top: 1rem;
 }
+
+figure iframe {
+  width: 100%;
+  min-height: 400px;
+  display: block;
+}
+
