@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid grey;
+    margin: 0;
+    padding: .5rem;
+}
+
+.container .item-1 {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.container .item-2 {
+    font-family: 'Anton', sans-serif;
+}
+
+.btn {
+    background: rgba(100, 100, 200, 1);
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: .5rem;
+    border-radius: 5px;
+}
+
+article {
+    width: 35rem;
+    margin: 0 auto;
+}
+
+article .author {
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
+aside {
+    display: flex;
+    justify-content: space-between;
+}
+
+aside .items {
+    margin: .1rem 0;
+}
+figure img {
+    width: 30rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
