@@ -23,7 +23,7 @@
 }
 
 .btn {
-  background: rgba(100, 100, 200, 1);
+  background: rgb(86, 123, 149);
   color: white;
   font-weight: bold;
   text-transform: uppercase;
@@ -44,6 +44,7 @@ article .author {
 aside {
   display: flex;
   justify-content: space-between;
+  margin: 1rem 0;
 }
 
 aside .items {
