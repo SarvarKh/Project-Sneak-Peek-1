@@ -23,7 +23,7 @@
 }
 
 .btn {
-  background: rgba(100, 100, 200, 1);
+  background: rgb(86, 123, 149);
   color: white;
   font-weight: bold;
   text-transform: uppercase;
@@ -44,6 +44,7 @@ article .author {
 aside {
   display: flex;
   justify-content: space-between;
+  margin: 1rem 0;
 }
 
 aside .items {
@@ -65,4 +66,29 @@ figure iframe {
   width: 100%;
   min-height: 400px;
   display: block;
+}
+
+footer {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.pic figure img {
+  max-width: 250px;
+}
+
+.part-1 {
+  border-top: 2px solid black;
+  padding-top: 1rem;
+}
+
+.part-1 .container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.part-2 {
+  display: flex;
+  flex-wrap: wrap;
 }
