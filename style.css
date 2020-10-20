@@ -67,3 +67,28 @@ figure iframe {
   min-height: 400px;
   display: block;
 }
+
+footer {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.pic figure img {
+  max-width: 250px;
+}
+
+.part-1 {
+  border-top: 2px solid black;
+  padding-top: 1rem;
+}
+
+.part-1 .container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.part-2 {
+  display: flex;
+  flex-wrap: wrap;
+}
