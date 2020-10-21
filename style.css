@@ -1,15 +1,29 @@
+@font-face {
+  font-family: "nyt-franklin";
+  src: url("assets/fonts/nyt-franklin-300-normal.woff") format('woff');
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
 
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+}
+
 .container {
   display: flex;
   justify-content: space-between;
-  border: 2px solid grey;
+  border-bottom: 2px solid grey;
   margin: 0;
   padding: 6px;
+  width: 100%;
+  align-items: center;
 }
 
 .container .item-1 {
@@ -51,6 +65,10 @@ aside .items {
   margin: 2px 0;
 }
 
+.wrapper {
+  margin-top: 60px;
+}
+
 .wrapper h2 {
   margin: 2rem 0;
   text-align: center;
@@ -80,7 +98,6 @@ figure img {
 
 .title-for-graphic {
   max-width: 800px;
-  background-color: red;
   margin: 1rem auto;
 }
 
@@ -88,15 +105,31 @@ figure img {
   display: flex;
   flex-wrap: wrap;
   font-family: "nyt-franklin";
+  font-size: small;
+  max-width: 800px;
+  justify-content: center;
 }
 
 .graphic {
-  width: 25%;
+  margin-top: 120px;
+  margin-right: 5px;
+  width: 24%;
+}
+
+.middle-graphic {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  align-items: center;
 }
 
 .container-for-graphic figure {
   position: absolute;
   z-index: -1;
+}
+
+.container-for-graphic span {
+  font-weight: bold;
 }
 
 .picture-label {
@@ -151,6 +184,10 @@ section {
   align-items: baseline;
 }
 
+.topfooter h1 {
+  margin: 20px;
+  font-family: "Anton", sans-serif;
+}
 .topfooter p {
   color: gray;
   font-size: small;
@@ -158,34 +195,40 @@ section {
 
 .middlefooter {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin: 20px;
 }
 
 .middlefooter h2 {
   text-transform: uppercase;
   font-weight: bold;
+  font-size: 12px;
 }
 
 .middlefooter ul {
   display: flex;
-  margin: 0;
   padding: 0;
   flex-direction: column;
+  font-size: 12px;
 }
 
 .middlefooter li {
   list-style: none;
-  margin-top: 3px;
+  margin-top: 8px;
 }
 
 .bottomfooter ul {
   border-top: 1px solid gray;
   padding-top: 1rem;
-  margin: 10px 0;
+  margin: 10px 20px;
   display: flex;
+  justify-content: space-around;
 }
 
 .bottomfooter li {
   list-style: none;
   color: gray;
+  font-size: 10px;
+  
 }
+
