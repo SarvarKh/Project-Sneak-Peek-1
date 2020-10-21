@@ -127,3 +127,15 @@ section {
   list-style: none;
   margin-top: 3px;
 }
+
+.bottomfooter ul{
+  border-top: 1px solid gray;
+  padding-top: 1rem;
+  margin: 10px 0;
+  display: flex;
+}
+
+.bottomfooter li{
+  list-style: none;
+  color: gray;
+}
