@@ -68,7 +68,7 @@ figure iframe {
   display: block;
 }
 
-footer {
+section {
   display: flex;
   width: 1200px;
   margin: 0 auto;
@@ -91,4 +91,39 @@ footer {
 .part-2 {
   display: flex;
   flex-wrap: wrap;
+}
+
+.topfooter {
+  margin-top: 1rem;
+  border-top: 3px double gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.topfooter p {
+  color: gray;
+  font-size: small;
+}
+
+.middlefooter {
+  display: flex;
+  justify-content: space-around;
+}
+
+.middlefooter h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.middlefooter ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+}
+
+.middlefooter li{
+  list-style: none;
+  margin-top: 3px;
 }
