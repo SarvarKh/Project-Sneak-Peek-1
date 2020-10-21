@@ -64,7 +64,6 @@ aside .items {
   margin: 6px 0;
 }
 
-
 figure img {
   width: 70rem;
   max-width: 800px;
@@ -77,6 +76,27 @@ figure img {
   width: 70rem;
   max-width: 800px;
   display: inline-block;
+}
+
+.title-for-graphic {
+  max-width: 800px;
+  background-color: red;
+  margin: 1rem auto;
+}
+
+.container-for-graphic {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "nyt-franklin";
+}
+
+.graphic {
+  width: 25%;
+}
+
+.container-for-graphic figure {
+  position: absolute;
+  z-index: -1;
 }
 
 .picture-label {
