@@ -51,11 +51,40 @@ aside .items {
   margin: 2px 0;
 }
 
+.wrapper h2 {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.wrapper figure {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  align-items: center;
+  margin: 6px 0;
+}
+
+
 figure img {
-  width: 30rem;
+  width: 70rem;
+  max-width: 800px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.wrapper figure figcaption {
+  width: 70rem;
+  max-width: 800px;
+  display: inline-block;
+}
+
+.picture-label {
+  color: grey;
+}
+
+#video-label {
+  max-width: 550px;
 }
 
 article p {
@@ -63,9 +92,10 @@ article p {
 }
 
 figure iframe {
-  width: 100%;
-  min-height: 400px;
+  width: 550px;
+  min-height: 300px;
   display: block;
+  border: none;
 }
 
 section {
@@ -123,19 +153,19 @@ section {
   flex-direction: column;
 }
 
-.middlefooter li{
+.middlefooter li {
   list-style: none;
   margin-top: 3px;
 }
 
-.bottomfooter ul{
+.bottomfooter ul {
   border-top: 1px solid gray;
   padding-top: 1rem;
   margin: 10px 0;
   display: flex;
 }
 
-.bottomfooter li{
+.bottomfooter li {
   list-style: none;
   color: gray;
 }
