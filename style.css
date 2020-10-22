@@ -101,6 +101,12 @@ header h2 {
   color: #121212;
 }
 
+section {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+
 article {
   width: 35rem;
   margin: 0 auto;
@@ -115,6 +121,7 @@ article p {
   font-family: imperial;
   line-height: 1.5625rem;
   font-size: 1.25rem;
+  margin-top: 1rem;
 }
 
 aside {
@@ -217,21 +224,11 @@ figure img {
   max-width: 550px;
 }
 
-article p {
-  margin-top: 1rem;
-}
-
 figure iframe {
   width: 550px;
   min-height: 300px;
   display: block;
   border: none;
-}
-
-section {
-  display: flex;
-  width: 1200px;
-  margin: 0 auto;
 }
 
 .pic figure img {
@@ -255,8 +252,20 @@ section {
   margin: 0;
 }
 
-.other-articles .pic:hover {
-  cursor: pointer;
+.part-2 p {
+  margin-top: 12px;
+  font-weight: bold;
+}
+
+.popular-articles p {
+  margin-bottom: 6px;
+  border-top: 2px solid black;
+  padding-top: 1rem;
+}
+
+.topfooter p {
+  color: gray;
+  font-size: small;
 }
 
 .other-articles .pic p:hover {
@@ -275,14 +284,13 @@ section {
   font-size: 10px;
 }
 
+.other-articles .pic:hover {
+  cursor: pointer;
+}
+
 .part-2 {
   display: flex;
   flex-direction: column;
-}
-
-.part-2 p {
-  margin-top: 12px;
-  font-weight: bold;
 }
 
 .part-2 .container {
@@ -298,20 +306,20 @@ section {
   margin-left: 1rem;
 }
 
-.popular-articles p {
-  margin-bottom: 6px;
-  border-top: 2px solid black;
-  padding-top: 1rem;
-}
-
 .popular-articles ul {
   list-style: none;
   padding: 0;
 }
 
-.popular-articles ul li a:hover {
-  cursor: pointer;
-  opacity: 0.7;
+.middlefooter li {
+  list-style: none;
+  margin-top: 8px;
+}
+
+.bottomfooter li {
+  list-style: none;
+  color: gray;
+  font-size: 10px;
 }
 
 .popular-articles ul li {
@@ -323,6 +331,11 @@ section {
 .popular-articles ul li a {
   text-decoration: none;
   color: black;
+}
+
+.popular-articles ul li a:hover {
+  cursor: pointer;
+  opacity: 0.7;
 }
 
 .topfooter {
@@ -337,10 +350,6 @@ section {
   width: 184px;
   height: 44px;
   margin-left: 20px;
-}
-.topfooter p {
-  color: gray;
-  font-size: small;
 }
 
 .middlefooter {
@@ -362,11 +371,6 @@ section {
   font-size: 12px;
 }
 
-.middlefooter li {
-  list-style: none;
-  margin-top: 8px;
-}
-
 .bottomfooter ul {
   border-top: 1px solid gray;
   padding-top: 1rem;
@@ -374,11 +378,3 @@ section {
   display: flex;
   justify-content: space-around;
 }
-
-.bottomfooter li {
-  list-style: none;
-  color: gray;
-  font-size: 10px;
-  
-}
-
