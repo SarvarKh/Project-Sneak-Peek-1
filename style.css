@@ -122,6 +122,15 @@ nav {
   position: absolute;
 }
 
+.container-for-graphic span {
+  font-weight: bold;
+}
+
+.container-for-graphic figure figcaption span {
+  border-top: 2px solid black;
+  padding-top: 1rem;
+}
+
 .wrapper .section span {
   position: relative;
   font-size: 14px;
@@ -225,17 +234,8 @@ figure img {
   z-index: -1;
 }
 
-.container-for-graphic span {
-  font-weight: bold;
-}
-
 .container-for-graphic figure figcaption {
   margin-top: 4rem;
-}
-
-.container-for-graphic figure figcaption span {
-  border-top: 2px solid black;
-  padding-top: 1rem;
 }
 
 .section .after-graphic {
@@ -286,12 +286,6 @@ figure iframe {
   font-family: 'nyt-franklin', serif;
   margin-top: 12px;
   font-weight: bold;
-}
-
-.popular-articles h4 {
-  margin-bottom: 6px;
-  border-top: 2px solid black;
-  padding-top: 1rem;
 }
 
 .topfooter p {
@@ -349,10 +343,12 @@ figure iframe {
   font-family: 'nyt-franklin', serif;
 }
 
-.popular-articles h4{
+.popular-articles h4 {
   font-weight: bold;
+  margin-bottom: 6px;
+  border-top: 2px solid black;
+  padding-top: 1rem;
 }
-
 
 .popular-articles ul {
   list-style: none;
@@ -390,7 +386,6 @@ footer {
   width: 1200px;
   margin: 0 auto;
 }
-
 
 .topfooter {
   margin-top: 1rem;
