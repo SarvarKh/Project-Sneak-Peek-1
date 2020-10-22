@@ -83,6 +83,12 @@ nav {
   height: 30px;
 }
 
+.top-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
 .btn {
   background: rgb(86, 123, 149);
   color: white;
@@ -90,6 +96,9 @@ nav {
   text-transform: uppercase;
   padding: 6px;
   border-radius: 5px;
+  width: 350px;
+  text-align: center;
+  font-family: 'nyt-franklin', serif;
 }
 
 .header h2 {
@@ -99,6 +108,25 @@ nav {
   font-style: italic;
   font-weight: 700;
   color: #121212;
+}
+
+.icons {
+  font-size: 30px;
+}
+
+.icons i {
+  margin-right: 5px;
+}
+
+.fa-comment-alt {
+  position: absolute;
+}
+
+.wrapper .section span {
+  position: relative;
+  font-size: 14px;
+  right: 34px;
+  bottom: 10px;
 }
 
 section {
@@ -240,8 +268,10 @@ figure iframe {
   padding-top: 1rem;
 }
 
-.part-1 p {
+.part-1 h4 {
+  font-family: 'nyt-franklin', serif;
   font-weight: bold;
+  margin-bottom: 1rem;
 }
 
 .part-1 .container {
@@ -252,12 +282,13 @@ figure iframe {
   margin: 0;
 }
 
-.part-2 p {
+.part-2 h4 {
+  font-family: 'nyt-franklin', serif;
   margin-top: 12px;
   font-weight: bold;
 }
 
-.popular-articles p {
+.popular-articles h4 {
   margin-bottom: 6px;
   border-top: 2px solid black;
   padding-top: 1rem;
@@ -268,13 +299,22 @@ figure iframe {
   font-size: small;
 }
 
+.other-articles {
+  margin-left: 1rem;
+}
+
+.other-articles p {
+  font-family: 'nyt-cheltenham', serif;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+}
+
 .other-articles .pic p:hover {
   opacity: 0.7;
 }
 
 .other-articles .pic figure figcaption {
-  display: flex;
-  justify-content: right;
+  text-align: right;
   font-size: 10px;
   margin-top: 6px;
   margin-bottom: 6px;
@@ -291,6 +331,8 @@ figure iframe {
 .part-2 {
   display: flex;
   flex-direction: column;
+  border-top: 2px solid gray;
+  margin-top: 2rem;
 }
 
 .part-2 .container {
@@ -304,7 +346,13 @@ figure iframe {
 
 .popular-articles {
   margin-left: 1rem;
+  font-family: 'nyt-franklin', serif;
 }
+
+.popular-articles h4{
+  font-weight: bold;
+}
+
 
 .popular-articles ul {
   list-style: none;
@@ -337,6 +385,12 @@ figure iframe {
   cursor: pointer;
   opacity: 0.7;
 }
+
+footer {
+  width: 1200px;
+  margin: 0 auto;
+}
+
 
 .topfooter {
   margin-top: 1rem;
