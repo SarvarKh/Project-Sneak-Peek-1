@@ -1,9 +1,11 @@
 **Built With**
+
 HTML and CSS
 
 [Live Demo](https://htmlpreview.github.io/?https://github.com/SarvarKh/Project-Sneak-Peek-1/blob/feature/index.html)
 
-Getting Started
+**Getting Started**
+
 This is a cloned web page from a [NY Times article](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0)
 
 **Authors**
@@ -22,6 +24,7 @@ GitHub: @Zappat0n
 
 
 **Contributing**
+
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the issues page.
@@ -31,11 +34,13 @@ Feel free to check the issues page.
 
 Give a star if you like this project!
 
+
 **Acknowledgments**
 
 Hat tip to anyone whose code was used
 Inspiration
 etc
+
 
 **License**
 
