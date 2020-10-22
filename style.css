@@ -92,12 +92,12 @@ nav {
   border-radius: 5px;
 }
 
-header h2 {
+.header h2 {
   padding-top: 40px;
   font-size: 36px;
-  font-family: nyt-cheltenham;
+  font-family: 'nyt-cheltenham', serif;
   font-style: italic;
-  font-weight: bold;
+  font-weight: 700;
   color: #121212;
 }
 
@@ -107,18 +107,18 @@ section {
   margin: 0 auto;
 }
 
-article {
+.section {
   width: 35rem;
   margin: 0 auto;
 }
 
-article .author {
+.section .author {
   font-weight: bold;
   margin: 1rem 0;
 }
 
-article p {
-  font-family: imperial;
+.section p {
+  font-family: 'imperial', serif;
   line-height: 1.5625rem;
   font-size: 1.25rem;
   margin-top: 1rem;
@@ -173,7 +173,7 @@ figure img {
 .container-for-graphic {
   display: flex;
   flex-wrap: wrap;
-  font-family: "nyt-franklin";
+  font-family: 'nyt-franklin', serif;
   font-size: small;
   max-width: 800px;
   justify-content: center;
@@ -210,14 +210,14 @@ figure img {
   padding-top: 1rem;
 }
 
-.after-graphic {
+.section .after-graphic {
   margin-top: 5rem;
 }
 
 .picture-label {
   margin-top: 3px;
   color: #666;
-  font-family: imperial;
+  font-family: 'imperial', serif;
 }
 
 #video-label {
