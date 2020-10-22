@@ -3,6 +3,12 @@
   src: url("assets/fonts/nyt-franklin-300-normal.woff") format('woff');
 }
 
+@font-face {
+  font-family: 'nyt-cheltenham';
+  src: url('/assets/fonts/cheltenham-normal-400.woff2') format('woff2');
+}
+
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -16,7 +22,7 @@ nav {
   background-color: white;
 }
 
-.container {
+.container-nav {
   display: flex;
   justify-content: space-between;
   border-bottom: 2px solid grey;
@@ -26,14 +32,15 @@ nav {
   align-items: center;
 }
 
-.container .item-1 {
+.container-nav .item-1 {
   font-family: "Libre Franklin", sans-serif;
   font-weight: bolder;
   text-transform: uppercase;
 }
 
-.container .item-2 {
-  font-family: "Anton", sans-serif;
+.container-nav .item-2 {
+  width: 225px;
+  height: 30px;
 }
 
 .btn {
@@ -43,6 +50,11 @@ nav {
   text-transform: uppercase;
   padding: 6px;
   border-radius: 5px;
+}
+
+header h2 {
+  font-style: italic;
+  font-size: 2rem;
 }
 
 article {
@@ -132,6 +144,19 @@ figure img {
   font-weight: bold;
 }
 
+.container-for-graphic figure figcaption {
+  margin-top: 4rem;
+}
+
+.container-for-graphic figure figcaption span {
+  border-top: 2px solid black;
+  padding-top: 1rem;
+}
+
+.after-graphic {
+  margin-top: 5rem;
+}
+
 .picture-label {
   color: grey;
 }
@@ -158,7 +183,7 @@ section {
 }
 
 .pic figure img {
-  max-width: 250px;
+  max-width: 270px;
 }
 
 .part-1 {
@@ -166,9 +191,37 @@ section {
   padding-top: 1rem;
 }
 
+.part-1 p {
+  font-weight: bold;
+}
+
 .part-1 .container {
   display: grid;
+  grid-gap: 10px;
   grid-template-columns: auto auto auto;
+  align-items: baseline;
+  margin: 0;
+}
+
+.other-articles .pic:hover {
+  cursor: pointer;
+}
+
+.other-articles .pic p:hover {
+  opacity: 0.7;
+}
+
+.other-articles .pic figure figcaption {
+  display: flex;
+  justify-content: right;
+  margin-right: 1rem;
+  font-size: 10px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.other-articles .pic {
+  font-size: 10px;
 }
 
 .part-2 {
@@ -176,17 +229,63 @@ section {
   flex-wrap: wrap;
 }
 
+.part-2 p {
+  margin-top: 12px;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 6px;
+  width: 100%;
+  align-items: center;
+}
+
+.popular-articles {
+  margin-left: 1rem;
+}
+
+.popular-articles p {
+  margin-bottom: 6px;
+  border-top: 2px solid black;
+  padding-top: 1rem;
+}
+
+.popular-articles ul {
+  list-style: none;
+  padding: 0;
+}
+
+.popular-articles ul li a:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.popular-articles ul li {
+  margin-top: 1rem;
+  padding: 6px 0;
+  border-top: 2px solid gray;
+}
+
+.popular-articles ul li a {
+  text-decoration: none;
+  color: black;
+}
+
 .topfooter {
   margin-top: 1rem;
   border-top: 3px double gray;
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
 }
 
-.topfooter h1 {
-  margin: 20px;
-  font-family: "Anton", sans-serif;
+.topfooter svg {
+  width: 184px;
+  height: 44px;
+  margin-left: 20px;
 }
 .topfooter p {
   color: gray;
