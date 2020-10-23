@@ -1,14 +1,18 @@
-**Built With**
+# New York times article
+This is clone repo of NY times article.
+
+## Built With
 
 HTML and CSS
 
-[Live Demo](https://htmlpreview.github.io/?https://github.com/SarvarKh/Project-Sneak-Peek-1/blob/feature/index.html)
+## Live Demo
+[Click here](https://htmlpreview.github.io/?https://github.com/SarvarKh/Project-Sneak-Peek-1/blob/feature/index.html)
 
-**Getting Started**
+## Getting Started
 
 This is a cloned web page from a [NY Times article](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0)
 
-**Authors**
+## Authors
 
 * Sarvar Khalimov
 
@@ -23,25 +27,25 @@ GitHub: @Zappat0n
 [LinkedIn](https://www.linkedin.com/in/angel-luis-barros-pazos-8889011b5/)
 
 
-**Contributing**
+## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the issues page.
 
 
-**Show your support**
+## Show your support
 
-Give a star if you like this project!
+Give a ⭐️ if you like this project!
 
 
-**Acknowledgments**
+## Acknowledgments
 
 Hat tip to anyone whose code was used
 Inspiration
 etc
 
 
-**License**
+## License
 
 This project is MIT licensed.
