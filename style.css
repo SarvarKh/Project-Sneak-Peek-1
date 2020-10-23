@@ -52,6 +52,14 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.style-flex {
+  display: flex;
+}
+
+.style-bold {
+  font-weight: bold;
+}
+
 nav {
   position: fixed;
   top: 0;
@@ -60,7 +68,6 @@ nav {
 }
 
 .container-nav {
-  display: flex;
   justify-content: space-between;
   border-bottom: 2px solid grey;
   margin: 0;
@@ -73,7 +80,6 @@ nav {
   font-family: "Libre Franklin", sans-serif;
   font-weight: bolder;
   text-transform: uppercase;
-  display: flex;
   justify-content: space-around;
   width: 300px;
 }
@@ -84,7 +90,6 @@ nav {
 }
 
 .top-icons {
-  display: flex;
   justify-content: space-between;
   align-items: baseline;
 }
@@ -92,7 +97,6 @@ nav {
 .btn {
   background: rgb(86, 123, 149);
   color: white;
-  font-weight: bold;
   text-transform: uppercase;
   padding: 6px;
   border-radius: 5px;
@@ -122,10 +126,6 @@ nav {
   position: absolute;
 }
 
-.container-for-graphic span {
-  font-weight: bold;
-}
-
 .container-for-graphic figure figcaption span {
   border-top: 2px solid black;
   padding-top: 1rem;
@@ -139,7 +139,6 @@ nav {
 }
 
 section {
-  display: flex;
   width: 1200px;
   margin: 0 auto;
 }
@@ -150,7 +149,6 @@ section {
 }
 
 .section .author {
-  font-weight: bold;
   margin: 1rem 0;
 }
 
@@ -162,7 +160,6 @@ section {
 }
 
 aside {
-  display: flex;
   justify-content: space-between;
   margin: 1rem 0;
 }
@@ -181,7 +178,6 @@ aside .items {
 }
 
 .wrapper figure {
-  display: flex;
   flex-direction: column;
   width: 100vw;
   align-items: center;
@@ -208,7 +204,6 @@ figure img {
 }
 
 .container-for-graphic {
-  display: flex;
   flex-wrap: wrap;
   font-family: 'nyt-franklin', serif;
   font-size: small;
@@ -223,7 +218,6 @@ figure img {
 }
 
 .middle-graphic {
-  display: flex;
   flex-direction: column;
   width: 100vw;
   align-items: center;
@@ -270,7 +264,6 @@ figure iframe {
 
 .part-1 h4 {
   font-family: 'nyt-franklin', serif;
-  font-weight: bold;
   margin-bottom: 1rem;
 }
 
@@ -285,7 +278,6 @@ figure iframe {
 .part-2 h4 {
   font-family: 'nyt-franklin', serif;
   margin-top: 12px;
-  font-weight: bold;
 }
 
 .topfooter p {
@@ -323,7 +315,6 @@ figure iframe {
 }
 
 .part-2 {
-  display: flex;
   flex-direction: column;
   border-top: 2px solid gray;
   margin-top: 2rem;
@@ -344,7 +335,6 @@ figure iframe {
 }
 
 .popular-articles h4 {
-  font-weight: bold;
   margin-bottom: 6px;
   border-top: 2px solid black;
   padding-top: 1rem;
@@ -390,7 +380,6 @@ footer {
 .topfooter {
   margin-top: 1rem;
   border-top: 3px double gray;
-  display: flex;
   justify-content: space-between;
   align-items: center;
 }
@@ -402,19 +391,16 @@ footer {
 }
 
 .middlefooter {
-  display: flex;
   justify-content: space-between;
   margin: 20px;
 }
 
 .middlefooter h2 {
   text-transform: uppercase;
-  font-weight: bold;
   font-size: 12px;
 }
 
 .middlefooter ul {
-  display: flex;
   padding: 0;
   flex-direction: column;
   font-size: 12px;
@@ -424,6 +410,5 @@ footer {
   border-top: 1px solid gray;
   padding-top: 1rem;
   margin: 10px 20px;
-  display: flex;
   justify-content: space-around;
 }
