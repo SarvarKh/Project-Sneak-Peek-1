@@ -1,6 +1,8 @@
 # New York times article
 This is clone repo of NY times article.
 
+![screenshot](assets/img/screenshot.png)
+
 ## Built With
 
 HTML and CSS
