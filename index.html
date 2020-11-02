@@ -204,7 +204,41 @@
             </aside> 
         </div>
     </article>
-    
+    <div class="forms-container">
+        <form action="" method="post" autocomplete="on" id="form">
+            <div class="user-name form-text">    
+                <label for="user-name">Your name</label>
+                <br>
+                <input type="text" id="user-name" name="user-name" placeholder="type here" required maxlength="20">
+            </div>
+            <div class="email form-text">
+                <label for="email">Your email</label>
+                <br>
+                <input type="email" id="email" name="email" placeholder="type here" required maxlength="20">
+            </div>
+            <div class="comments">
+                <label for="comment">Any comments?</label>
+                <br>
+                <textarea name="comment" id="comment" placeholder="Type your comment here…" cols="55" rows="5" required maxlength="250"></textarea>
+            </div>
+            <div class="opinions">
+                <p>What is your overall opinion about this article?</p>
+                <input type="radio" name="opinion" id="positive">
+                <label for="positive">Positive</label>
+                <input type="radio" name="opinion" id="negative">
+                <label for="negative">Negative</label>
+                <input type="radio" name="opinion" id="neutral">
+                <label for="neutral">Neutral</label>
+            </div>
+            <div class="subscribe">
+                <input type="checkbox" name="subscribe" id="subscribe">
+                <label for="subscribe">I want to subscribe to the newsletter</label>
+            </div>
+            <div class="submit">
+                <input type="submit" value="Send">
+            </div>
+        </form>
+    </div>
     <section class="style-flex">
         <div class="other-articles footer-item">
             <div class="part-1">
@@ -561,5 +595,8 @@
             </ul>
         </div>
     </footer>
+    <div class="fixed-button">
+        <a href="#form">Go to the forms</a>
+    </div>
 </body>
 </html>
