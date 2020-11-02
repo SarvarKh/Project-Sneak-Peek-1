@@ -356,6 +356,14 @@ figure iframe {
   font-size: 10px;
 }
 
+.fixed-button a {
+  text-decoration: none;
+  background-color: rgb(86, 123, 149);
+  padding: 4px;
+  color: white;
+  border-radius: 5px;
+}
+
 .popular-articles ul li {
   margin-top: 1rem;
   padding: 6px 0;
@@ -451,12 +459,4 @@ form .submit input:hover {
 .fixed-button {
   float: right;
   margin-right: 2rem;
-}
-
-.fixed-button a {
-  text-decoration: none;
-  background-color: rgb(86, 123, 149);
-  padding: 4px;
-  color: white;
-  border-radius: 5px;
 }
